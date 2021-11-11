@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        body{
+            font: normal 1em arial;
+        }
+        h1{
+            font-size: 2em;
+            color: green;
+        }
+        h2{
+            color: rgb(255, 200, 47);
+        }
+
+        #titulo-principal{
+            background-color: greenyellow;
+            color: grey;
+            text-align: center;
+        }
+        .topico{
+            text-align: right;
+        }
+        .texto{
+            text-align: justify;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+                  
+        }
+        a:visited{
+            color: darkred
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        div >p{
+            display: none;
+        }
+        div:hover >p{
+            display: block;
+            background-color: indianred;
+        }
+    </style>
+</head>
+<body>
+   <h1 id="titulo-principal"> Aprenda desenvolvimento Web</h1>
+   <h1>Aprenda HTML</h1>
+   <h2 class="topico">Semântica Web</h2>
+   <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum pariatur aliquid iure? Facilis labore nobis, quam quas unde eum at mollitia ipsam laudantium rem saepe, quaerat totam? Aut, quasi a?</p>
+   <h1>Aprenda CSS</h1>
+   <h2 class="topico">Estilos Web</h2>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque atque officia fugit odit deleniti harum maiores! Blanditiis eius libero vero voluptatem voluptatibus placeat eum laborum quisquam. Ut quod dolor repudiandae.</p>    
+   
+    <h1>Personalizando um link</h1>
+    <p>Para aprender HTML e CSS acesse o <a href="https://www.cursoemvideo.com/" target="_blank"> Curso em Video.</a></p>
+
+<p>Para conhecer os padroes utilizados acesse o <a href="https://www.tc.df.gov.br/ice4/vordf/outros/html-comandos.html" target="_blank">Curso</a></p>
+
+    <p>Vejas os videos, pelo nosso canal no <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" class="especial" target="_blank">Youtube.</a></p>
+
+    <h1>Conteudo especial</h1>
+    <div>
+        Passe o mouse aqui
+            <p>Surpresa!!!</p>
+    </div>
+
+</body>
+</html>
